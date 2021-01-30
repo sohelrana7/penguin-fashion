@@ -1,6 +1,82 @@
 
-
-section{
-    border: 1px solid red;
-    height: 500px;
+h1{
+    text-transform: uppercase;
 }
+.name-highlight{
+    color: orange;
+    text-transform: uppercase;
+}
+p{
+    color: gray;
+}
+.background-header{
+    background-color: rgb(255, 235, 245);
+}
+.top-header-img img{
+    width: 100%;
+    margin-bottom: 150px;
+}
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-img img{
+    height: 70%;
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 15px;
+}
+.shopping-cart-ico{
+    padding-right: 5px;
+    
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card-price{
+    color: orange;
+    font-weight: 700;
+    font-size: 35px;
+}
+.card-img-icon img{
+    height: 50%;
+}
+.card-img-icon{
+    height: 160px;
+    width: 600px;
+}
+.contact-img img{
+    height: 300px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
